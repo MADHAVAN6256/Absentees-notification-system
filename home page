@@ -1,0 +1,222 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+
+  <title>
+   Asan memorial college of arts & science
+  </title>
+
+
+  <link rel="icon"
+href="https://lh3.googleusercontent.com/proxy/-kusJtKSOb3qwQrK40EU33DhOV37ohV90JMfNQLrwHzt4Bp0DBejyCkaTZZ3DyqOrcmCQpKujxNF32g6ACyAx8BU1F_Rbcawg1fSCzUuVslCIw">
+
+
+  <style>
+
+
+  body {
+            font-family:Engravers MT;
+            margin: 0;
+            padding: 0;
+            background-color:#E8DEEF;
+        }
+
+
+        .header {
+            background-color:#FFC0CB;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        .header img {
+            height: 70px;
+        }
+
+        .header .buttons {
+            display: flex;
+            gap: 50px;
+        }
+
+
+        .header .buttons button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #ffffff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .header .buttons button:hover {
+            background-color: #0E0E64;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+          
+        .content h1 {
+            font-size: 20px;
+            color: blue;
+
+        }
+        .boxes {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+
+        .box {
+          margin-top: 0px; 
+           background-color:#EBEBF5;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            text-align: center;
+           margin-bottom: 70px; 
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .box h2 {
+            font-size: 18px;
+            color:blue;
+            margin: 10px 0;
+        }
+        .box a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;        
+
+}
+        .box a:hover {
+            background-color: #0E0E64;
+        }
+
+
+
+
+        .footer { 			
+           background-color:#FFC0CB;
+            color: blue;
+            text-align: center;
+            padding: 10px;
+            position: fixed;  
+            bottom:0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .boxes {
+                flex-direction: column;
+                align-items: center;		
+            }
+
+            .box {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="College Logo" height="300" src="https://amcas.in/wp-content/uploads/2019/10/logo.png" width="500"/>
+
+   <div class="buttons">
+  
+
+  <a href="F:\mini project\coading\login new.html"><button>
+     Logout
+    </button></a>
+
+
+
+   </div>
+  </div>
+
+
+  <div class="content">
+
+<h1>
+DEPARTMENT
+</h1>
+
+   <h1>
+  Bachelor of Computer Application
+   </h1>
+
+
+   <div class="boxes">
+
+
+    <div class="box">
+<img alt="Image 1" height="200" src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=600" width="300"/>
+
+     <h2>
+     BCA-FIRST YEAR
+     </h2>
+
+  <a href="F:\mini project\coading\index 1yr.html">Enter</a>
+    </div>
+
+
+
+
+    <div class="box">
+     <img alt="Image 2" height="200" src="https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg?auto=compress&cs=tinysrgb&w=600" width="300"/>
+     <h2>
+   BCA-SECOND YEAR
+     </h2>
+
+  <a href="F:\mini project\coading\index 2yr.html">
+      Enter
+     </a>
+    </div>
+     
+
+
+
+
+
+    <div class="box">
+
+     <img alt="Image 3" height="200" src="https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=600" width="300"/>
+
+     <h2>
+BCA-THIRD YEAR
+     </h2>
+     <a href="F:\mini project\coading\index 3yr.html">
+      Enter
+     </a>
+
+    </div>
+
+   </div>
+  </div>
+
+
+  <div class="footer">
+copyright @ 2025 ASAN memorial college of arts and science
+all rights reserved
+  </div>
+
+
+ </body>
+
+</html>
